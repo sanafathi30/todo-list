@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #387dfc;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 350px;
+    background-color: #fff;
+    margin: 150px auto;
+    border-radius: 5px;
+}
+
+.todo-header {
+    padding: 25px 20px 0 20px;
+    border-bottom: 2px solid #dbdbdb;
+    margin-bottom: 0;
+}
+
+.todo-input {
+    border: 2px solid #dbdbdb;
+    padding: 10px 8px;
+    border-radius: 5px;
+}
+
+.todo-input span {
+    margin-right: 4px;
+}
+
+.todo-options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.todo-options {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 25px 0;
+    align-items: center;
+}
+
+.todo-list {
+    display: flex;
+    padding: 20px 15px;
+}
+
+.todo-list>span {
+    flex-grow: 1;
+}
+
+.todo-list div {
+    position: relative;
+}
+
+.todo-options .todo-items {
+    display: flex;
+    align-items: center;
+}
+
+.todo-items .item {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.todo-items .item:hover {
+    color: #387dfc;
+}
+
+.todo-options .btn {
+    color: #fff;
+    background-color: #387dfc;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.todo-list-item {
+    border-bottom: 1px solid #dbdbdb;
+    padding: 18px 0;
+    margin: 0 15px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body-options {
+    position: absolute;
+    width: 80px;
+    z-index: 3;
+    right: 20px;
+    top: 0px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #c9bdc9;
+}
+
+.body-options .body-option {
+    padding: 7px 10px;
+    font-size: 14px;
+}
+
+.body-option:hover {
+    background-color: #c9bdc9;
+    cursor: pointer;
+}
+
+.last:hover {
+    cursor: pointer;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
